@@ -31,9 +31,6 @@
   },
   "author": "Juan Cruz Viotti <juan@resin.io>",
   "license": "Apache-2.0",
-  "os": [
-    "win32"
-  ],
   "devDependencies": {
     "chai": "^5.2.1",
     "eslint": "^9.31.0",
