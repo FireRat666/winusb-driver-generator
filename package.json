@@ -15,6 +15,7 @@
     "usb"
   ],
   "scripts": {
+    "prepare": "git submodule update --init --recursive || true",
     "flowzone-preinstall": "pip install cpplint",
     "configure": "node-gyp configure",
     "build-windows": "node-gyp rebuild",
