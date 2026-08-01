@@ -1,6 +1,6 @@
 {
   "name": "winusb-driver-generator",
-  "version": "2.1.10-1",
+  "version": "2.1.10-4",
   "main": "index.js",
   "description": "Associate a USB vendor/product ID pair with WinUSB",
   "homepage": "https://github.com/resin-io-modules/winusb-driver-generator",
@@ -15,7 +15,6 @@
     "usb"
   ],
   "scripts": {
-    "prepare": "git submodule update --init --recursive || true",
     "flowzone-preinstall": "pip install cpplint",
     "configure": "node-gyp configure",
     "build-windows": "node-gyp rebuild",
